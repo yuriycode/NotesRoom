@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/WORK2/AndroidStudioProjects/NotesRoom/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.189" />
+        <entry key="..\:/Users/WORK2/AndroidStudioProjects/NotesRoom/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1895" />
         <entry key="..\:/Users/WORK2/AndroidStudioProjects/NotesRoom/app/src/main/res/layout/activity_main.xml" value="0.21067415730337077" />
         <entry key="..\:/Users/WORK2/AndroidStudioProjects/NotesRoom/app/src/main/res/layout/fragment_add_note.xml" value="0.2245508982035928" />
         <entry key="..\:/Users/WORK2/AndroidStudioProjects/NotesRoom/app/src/main/res/layout/fragment_detail.xml" value="0.33" />
