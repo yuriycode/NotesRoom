@@ -1,18 +1,16 @@
 package com.yuriycode.notesroom.db.dao
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 import com.yuriycode.notesroom.model.NoteModel
 
 @Dao
 interface NoteDao {
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insert(noteModel: NoteModel)
 
-    @Insert
+    @Delete
     suspend fun delete(noteModel: NoteModel)
 
     @Query("SELECT * from note_table")
