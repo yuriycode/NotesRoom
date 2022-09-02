@@ -1,2 +1,1 @@
-# NotesRoom
-NotesApp using Room
+# NotesApp using Room
